@@ -140,9 +140,9 @@
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:text="Clear"
         android:onClick="clear"
-        android:textSize="13sp"
+        android:text="C"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/buttonAdd" />
 
@@ -165,15 +165,14 @@
         android:id="@+id/buttonTwo"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
         android:text="2"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonFive"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttonFive"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFive"
-        app:layout_constraintVertical_bias="0.145" />
+        app:layout_constraintTop_toTopOf="@+id/buttonThree"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonOne"
@@ -268,6 +267,7 @@
         app:layout_constraintEnd_toEndOf="@+id/buttonSix"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttonSix"
-        app:layout_constraintTop_toTopOf="@+id/buttonZero" />
+        app:layout_constraintTop_toTopOf="@+id/buttonZero"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
