@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void appendZero(View view) {
+    public void appendNum(View view) {
         String txtAlready = textViewBelow.getText().toString();
         textViewBelow.setText(txtAlready+"0");
     }
